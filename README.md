@@ -2,7 +2,7 @@
 
 InsightIQ is a web-based dashboard application that empowers small businesses to make data-driven decisions. It offers clear visualizations, key performance metrics, and AI-generated insights, helping users analyze sales, marketing, and customer data effectively.
 
-![InsightIQ Banner](images/banner.png) <!-- optional if you add a banner -->
+![InsightIQ Banner](baneer.png) <!-- optional if you add a banner -->
 
 ---
 
