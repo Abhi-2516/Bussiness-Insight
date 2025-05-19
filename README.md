@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# 🚀 InsightIQ – Business Decision Assistant
 
-## Project info
+InsightIQ is a web-based dashboard application that empowers small businesses to make data-driven decisions. It offers clear visualizations, key performance metrics, and AI-generated insights, helping users analyze sales, marketing, and customer data effectively.
 
-**URL**: https://lovable.dev/projects/1aabf204-140f-46e7-ae91-db815785c86d
+![InsightIQ Banner](images/banner.png) <!-- optional if you add a banner -->
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📊 Features
 
-**Use Lovable**
+| Feature          | Description                                                                |
+| ---------------- | -------------------------------------------------------------------------- |
+| 📈 KPI Cards     | Displays total revenue, average order value, conversion rate, etc.         |
+| 📉 Charts        | Visualize trends via Line, Bar, and Pie charts using Chart.js or Plotly.js |
+| 🎛 Filters       | Filter by time range, product category, and region                         |
+| 🧠 AI Assistant  | Ask questions like "Why did revenue drop?" and get contextual insights     |
+| 🔍 Auto Insights | Get top 3 observations automatically generated from the data               |
+| 📁 Data Upload   | (Planned) Allow users to upload their own CSV dataset for analysis         |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1aabf204-140f-46e7-ae91-db815785c86d) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💠 Tech Stack
 
-**Use your preferred IDE**
+* **Frontend**: React, TailwindCSS, Chart.js / Plotly.js
+* **Backend**: Node.js + Express *(optional – mostly frontend based)*
+* **Interactivity**: React Hooks, Context API
+* **AI Agent (Optional)**: OpenAI + LangChain for conversational data queries
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
+```
+insightiq/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # KPI Cards, Charts, Filters, AI Assistant
+│   ├── pages/              # Main Dashboard & other views
+│   ├── App.jsx             # App root with routing and layout
+│   └── index.js            # React entry point
+├── data/                   # Sample datasets (CSV or JSON)
+└── README.md               # Project documentation
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. Clone the repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone  https://github.com/Abhi-2516/Bussiness-Insight.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4. Open in Browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Visit: `http://localhost:5173` (if using Vite)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📌 To-Do / Future Enhancements
 
-## How can I deploy this project?
+* [ ] Add user login & dashboard personalization
+* [ ] Enable file upload for user datasets
+* [ ] PDF export of dashboard views
+* [ ] Advanced anomaly detection & trend forecasting
 
-Simply open [Lovable](https://lovable.dev/projects/1aabf204-140f-46e7-ae91-db815785c86d) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Contributions are welcome!
+Feel free to open issues or submit a pull request to improve features, design, or documentation.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+## ✨ Acknowledgements
+
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Chart.js](https://www.chartjs.org/)
+* [OpenAI](https://openai.com/)
